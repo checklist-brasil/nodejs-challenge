@@ -38,17 +38,16 @@
 
 - Manual do setup no readme.md
 - Dockerfile com as definições da imagem que será gerenciada pelo GitActions
-- Garanta que sua aplicação tenha alta disponibilidade (Utilize o PM2 para clusterizar e gerenciar a disponibilidade, ou crie o mesmo comportamento via docker)
 - O token da aplicação deverá expirar a cada 5 minutos, impedindo o usuario de comunicar com os endpoints utilizando o token expirado, a chave de critpografia utilizada na geração dos tokens, também deverá mudar concomitantemente.
 - Isole os dados sensiveis em um arquivo de variavel de ambiente, e consuma na aplicação.
 - Garanta que sua aplicação seja segura, se debruçando em recursos e pacotes disponíveis. 
-
+- Garanta que sua aplicação tenha alta disponibilidade
+- 
 ### **Ganha + pontos se conter**
 
-- Cobertura com [Jest](https://jestjs.io/) (ou qualquer outra ferramenta)
+- Cobertura de teste com [Jest](https://jestjs.io/) (ou qualquer outra ferramenta)
 - Documentação com [ApiDoc](https://apidocjs.com/) (ou qualquer outra ferramenta)
 - Setup do projeto com docker
-- Variáveis de environment setadas por ambiente (não hard coded)
 - CI/CD com GitActions, ou qualquer outra ferramenta de automatização (Não precisa estar integrado a nenhum cloud provider, basta apenas publicar a imagem docker no registry como uma prova de conceito)
 
 
