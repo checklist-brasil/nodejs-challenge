@@ -12,7 +12,7 @@
 ## O que será avaliado:
 
 - Arquitetura escolhida para desenvolvimento do teste.
-- Qualidade e simplicidade do código.
+- Qualidade e objetividade do código.
 - Funcionamento do produto entregue.
 - Seguir o padrão RESTful.
 - Boas praticas de desenvolvimento de software (baixo acoplamento, reutilização de codigo, modelagem de dados, aplicação dos princípios SOLID e testes, caso haja)
