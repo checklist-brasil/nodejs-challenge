@@ -42,7 +42,7 @@
 - Isole os dados sensiveis em um arquivo de variavel de ambiente, e consuma na aplicação.
 - Garanta que sua aplicação seja segura, se debruçando em recursos e pacotes disponíveis. 
 - Garanta que sua aplicação tenha alta disponibilidade
-- 
+
 ### **Ganha + pontos se conter**
 
 - Cobertura de teste com [Jest](https://jestjs.io/) (ou qualquer outra ferramenta)
